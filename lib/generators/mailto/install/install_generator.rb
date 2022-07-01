@@ -1,4 +1,4 @@
-class Mailto::InstallGenerator < Rails::Generators::NamedBase
+class Mailto::InstallGenerator < Rails::Generators::Base
   source_root File.expand_path("templates", __dir__)
 
   def copy_templates
