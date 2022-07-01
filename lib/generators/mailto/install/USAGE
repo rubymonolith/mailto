@@ -1,8 +1,8 @@
 Description:
-    Explain the generator
+    Installs mailto gem and creates ./app/mailtos/support.txt.erb example template.
 
 Example:
-    bin/rails generate install Thing
+    bin/rails generate mailto:install
 
     This will create:
-        what/will/it/create
+        app/mailtos/*.txt.erb
