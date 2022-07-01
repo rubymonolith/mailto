@@ -20,7 +20,7 @@ This creates the `./app/mailtos` directory and populates it with a few example t
 
 ## Usage
 
-Create a mailto template in the `app/mailtos` folder that looks like this:
+Create a mailto template in the `app/mailtos/support.txt.erb` folder that looks like this:
 
 ```txt
 ---
@@ -37,7 +37,7 @@ Here's my browser information: <%= request.user_agent %>
 Cheers!
 ```
 
-Then load the `mail_to_template` view helper from any of your views:
+Then load the `mail_to_template :support, "send us an email"` view helper from any of your views:
 
 ```
 <h1>Get help!</h1>
