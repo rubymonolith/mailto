@@ -41,7 +41,11 @@ Then load the `mail_to_template` view helper from any of your views:
 
 ```
 <h1>Get help!</h1>
-<p>If you're still having trouble after reading our <a href="/support">support docs</a>, you can <% mail_to_template :support, "send us an email" %> and we'll check it out.</p>
+
+<p>
+  If you're still having trouble after reading our <a href="/support">support docs</a>, you can
+  <% mail_to_template :support, "send us an email" %> and we'll check it out.
+</p>
 ```
 
 When the user clicks on the link, they'll get an email that's populated with the contents of your template.
@@ -67,7 +71,7 @@ Cheers!
 
 When the customer clicks on the "email support" link, the templates is populated in their email:
 
-![https://s3.amazonaws.com/bradgessler/OTvCp9Xd3X6LkRNfSSN1jcTRPW9ezlt3oCw5R9R19sjyCa1Ywv2nbtRc9LtwMSxWLJ75X4mYm6Al90q6dNYcLEivnONalotmlQKa.png](Email message is populated with contents of template when a customer clicks on the mailto link)
+![Email message is populated with contents of template when a customer clicks on the mailto link](https://s3.amazonaws.com/bradgessler/OTvCp9Xd3X6LkRNfSSN1jcTRPW9ezlt3oCw5R9R19sjyCa1Ywv2nbtRc9LtwMSxWLJ75X4mYm6Al90q6dNYcLEivnONalotmlQKa.png)
 
 ## Contributing
 
