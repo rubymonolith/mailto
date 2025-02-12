@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary     = "Use email for customer communications."
   spec.description = spec.summary
   spec.license     = "MIT"
-  
+
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
-  spec.add_dependency "rails", ">= 7.0.3"
+  spec.add_dependency "rails", ">= 7.1.0"
 end
